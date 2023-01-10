@@ -1,5 +1,10 @@
 const theme = {
   logo: <span>Kids Retreat 2023</span>,
+  useNextSeoProps: () => {
+    return {
+      titleTemplate: "%s",
+    };
+  },
   project: {
     link: "https://github.com/kndwin/retreat2023",
   },
@@ -8,7 +13,7 @@ const theme = {
     extraContent: () => <></>,
   },
   footer: {
-		component: () => <></>
+    component: () => <></>,
   },
 };
 
