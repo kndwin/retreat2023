@@ -1,5 +1,5 @@
 const theme = {
-  logo: <span>Kids Retreat 2023</span>,
+  logo: <b>Kids Church Retreat - 2023</b>,
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,9 +11,6 @@ const theme = {
     return {
       titleTemplate: "%s",
     };
-  },
-  project: {
-    link: "https://github.com/kndwin/retreat2023",
   },
   // https://github.com/shuding/nextra/pull/1206
   toc: {
