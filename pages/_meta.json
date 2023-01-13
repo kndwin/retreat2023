@@ -1,5 +1,7 @@
 {
   "index": "Start Here",
+  "pack": "Packing List",
+	"program": "Program", 
   "devotion": "Devotion",
-	"pack": "Packing List"
+  "prayer": "Praying"
 }
