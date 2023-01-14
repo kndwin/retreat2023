@@ -1,5 +1,16 @@
+/** @type { import("nextra-theme-docs").DocsThemeConfig } */
 const theme = {
   logo: <b>Kids Church Retreat - 2023</b>,
+  editLink: {
+    text: "",
+  },
+  search: {
+    placeholder: "Search site",
+  },
+  feedback: {
+    labels: "Give us feedback! →",
+    useLink: () => "https://tally.so/r/wvXvzd",
+  },
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
